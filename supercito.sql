@@ -64,7 +64,7 @@ DROP TABLE IF EXISTS formaspago;
 CREATE TABLE formaspago (
   idForma int(11) NOT NULL,
   idUsuario int(11) NOT NULL,
-  nombre` varchar(100) DEFAULT NULL,
+  nombre varchar(100) DEFAULT NULL,
   nCuenta varchar(255) NOT NULL,
   fechaVencimiento datetime DEFAULT NULL,
   opcionPago varchar(255) DEFAULT NULL COMMENT 'Mastecard, Visa o Paypal',
