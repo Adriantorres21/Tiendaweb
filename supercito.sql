@@ -187,4 +187,5 @@ ALTER TABLE usuario
   ADD CONSTRAINT llavePago FOREIGN KEY (idFormaPago) REFERENCES formaspago (idFormasPago),
   ADD CONSTRAINT llaveTipo FOREIGN KEY (idUsuario) REFERENCES tipousuario (idTipoUsuario),
   ADD CONSTRAINT llaveTipuser FOREIGN KEY (idTipoUsuario) REFERENCES tipousuario (idTipoUsuario);
+  
 COMMIT;
