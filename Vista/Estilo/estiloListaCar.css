@@ -1,0 +1,57 @@
+.tbArticulo{
+    margin: auto;
+    padding: 5px;
+}
+th,td{
+    padding: 5px;
+    border: 3px solid rgba(209, 206, 206,0.2);
+}
+.tnombre{
+    text-align: center;
+    width: 20%;
+}
+.tprecio{
+    text-align: center;
+    width: 15%;
+}
+.tcant{
+    text-align: center;
+    width: 10%;
+}
+.ttotal{
+    text-align: center;
+    width: 10%;
+}
+.tbtn{
+    text-align: center;
+    width: 10%;
+}
+.Titulolista{
+    margin-left: 20%;
+}
+.ResTotal{
+    text-align: end;
+    padding-right: 30%;
+}
+.btnEliminar{
+    background-color: rgb(167, 4, 4);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.compra{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Nohay{
+    margin: auto;
+    text-align: center;
+    background-color: #e7d2f2;
+    width: 80%;
+    padding: 1rem;
+}
+.pie{
+    margin-top: 10rem;
+}
